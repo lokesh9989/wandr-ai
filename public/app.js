@@ -2,7 +2,7 @@ const { useState, useEffect, useRef, Component } = React;
 // Clean rewrite — guaranteed working layout, all features integrated
 
 // ─── Config ───────────────────────────────────────────────────────
-const API = "http://localhost:4000";
+ const API = "https://wandr-ai-1mj2.onrender.com";
 
 // ─── Security: Input Sanitizer ────────────────────────────────────
 const sanitize = (str) => {
